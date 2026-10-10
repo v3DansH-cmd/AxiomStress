@@ -34,39 +34,6 @@ It scans handwritten or sketched theoretical physics equations, subjects them to
 
 ---
 
-## 🛠️ Installation & Setup
-
-1. **Clone or Navigate to the directory**:
-   ```bash
-   cd /Users/vedansh/Desktop/hacktober
-   ```
-
-2. **Create and Activate Virtual Environment**:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-3. **Generate Presets**:
-   ```bash
-   python3 create_presets.py
-   ```
-
-4. **Configure API Key (Optional for Live Inference)**:
-   Create a `.env` file or export your Gemini API key:
-   ```bash
-   export GEMINI_API_KEY="your_api_key_here"
-   ```
-   *(Note: The app also provides instant benchmark proofs for all presets even without an API key!)*
-
-5. **Launch the Streamlit Application**:
-   ```bash
-   streamlit run app.py
-   ```
-
----
-
 ## 📁 Project Structure
 
 ```
